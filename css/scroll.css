@@ -1,0 +1,92 @@
+
+
+body {
+
+  margin-bottom: 400px;
+  font-family: 'Gidugu';
+  font-size: 30px;
+}
+
+
+p{
+	font-size:35px;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+
+  p{
+  	font-size: 20px;
+    
+  }
+
+   
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+ p{
+  	font-size: 15px;
+    
+  }
+
+}
+
+
+
+.block {
+  width: 100%;
+  opacity: 0;
+  margin:auto;
+  display:inline-block;
+}
+
+.block img{
+  width:30%;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+h1 {
+font-size: 50px;
+/*text-align: center;*/
+
+
+}
+.iphone {
+  width: 300px;
+}
+
+#start{
+
+	background-color: black;
+	height:600px;
+	width:100%;
+}
+
+#block0{
+height:1000px;
+background-color: red;
+
+}
+
+#block1{
+height:500px;
+background-color:blue;
+
+}
+
+#block2{
+height:500px;
+
+}
+
+#block3{
+height:500px;
+
+}

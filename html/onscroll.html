@@ -18,7 +18,8 @@ An example of using ScrollMagic to animate with TweenMax.
 
   <title>Stages of End of Semester</title>
 
-  <link rel="stylesheet" type="text/css" href="../css/style.css" />
+  <link rel="stylesheet" type="text/css" href="../css/scroll.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
   <!-- Including jQuery by default -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -47,10 +48,13 @@ An example of using ScrollMagic to animate with TweenMax.
 <!-- Comment about the body of the HTML -->
 
 <body>
+
+<div id="start"></div>
+
 <h1> 5 Stages of End of Semester</h1>
 <div class="block" id="block0" height='500px'>
   <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere</p>
-  <img class="iphone" src="../img/sg1.png"/>
+  <img class="iphone animated infinite bounce delay-2s" src="../img/sg1.png"/>
 
 </div>
 
@@ -69,10 +73,10 @@ An example of using ScrollMagic to animate with TweenMax.
   <img class="iphone" src="../img/sg4.png"/>
 </div>
 
-<!-- <div class="block" id="block4">
+<div class="block" id="block4">
   <p>Accepting that working at Chili's really isn't that bad.</p>
   <img class="iphone" src="../img/sg5.png"/>
-</div> -->
+</div>
 
 </body>
 

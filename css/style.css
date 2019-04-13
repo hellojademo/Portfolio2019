@@ -287,3 +287,73 @@ body {
   padding: 16px 32px;
 }
 
+
+body, html {
+  height: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url('img_parallax.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.block {
+  width: 100%;
+  opacity: 0;
+  margin:auto;
+  display:inline-block;
+}
+
+.block img{
+  width:30%;
+}
+h1 {
+font-size: 50px;
+/*text-align: center;*/
+
+
+}
+.iphone {
+  width: 300px;
+}
+
+
+#block0{
+height:500px;
+background-color: red;
+
+}
+
+#block1{
+height:500px;
+background-color:blue;
+
+}
+
+#block2{
+height:500px;
+
+}
+
+#block3{
+height:500px;
+
+}
+
+
+
+
+
+
+
+
+

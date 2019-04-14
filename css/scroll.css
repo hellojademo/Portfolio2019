@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Space+Mono|Tillana');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 
 body {
 
@@ -13,15 +14,22 @@ body {
   font-size: 30px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 
 p{
   display: inline-block;
-	font-size:20px;
+	font-size:18px;
   color:#498367;
   margin: 70px;
-  font-family: 'Space Mono';
-  width:70%
-  text-align:justify;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 80px;
+  font-family: 'Raleway';
+  width:70%;
+  text-align: justify;
 }
 
 @media only screen and (max-width: 700px) {
@@ -33,6 +41,10 @@ p{
   p{
   	font-size: 15px;
     
+  }
+
+  h1{
+    font-size: 20px;
   }
 
    
@@ -48,7 +60,20 @@ p{
     
   }
 
+  h1{
+    font-size: 15px;
+  }
+
+  .center{
+    font-size: 60px;
+  }
+
+.column {
+    width: 100%;
+  }
+
 }
+
 
 
 
@@ -66,13 +91,27 @@ p{
   animation-iteration-count: infinite;
 }
 h1 {
-font-size: 30px;
-font-family: 'Raleway';
+font-size: 60px;
+font-family: 'Dancing Script';
 color:#FFF;
-margin-left: 16px;
+margin-left: 20px;
+margin-top: 6%;
 /*text-align: center;*/
 
 
+}
+
+.photo{
+  width:200px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+.innerp{
+   margin-right: auto;
+  margin-left: 15%;
+  width:50%;
 }
 
 #arrow{
@@ -93,13 +132,14 @@ animation-duration: 2s;
 .pop{
 
   float:right;
+  padding:15px;
  background-color: rgb(82,183,136, 0.6);
  width:60%;
- height: 10%;
- border-radius: 20px 0px 0px 20px;
+
+ border-radius: 70px 0px 0px 70px;
  margin-top: 5%;
  margin-left: 20px;
- margin-bottom: 2px;
+ margin-bottom: 20px;
  background-opacity: 40%;
 
 }
@@ -111,19 +151,20 @@ animation-duration: 2s;
   width: 100%;
   text-align: center;
  
-  font-size: 60px;
-font-family: 'Raleway';
+  font-size: 90px;
+font-family: 'Dancing Script';
 color:#FFF;
 }
 
 #block0{
-height:1000px;
+height:850px;
 background-color: #EDE5A6;
+box-sizing: border-box;
 
 }
 
 #block1{
-height:500px;
+height:600px;
 background-color:#B2D3A8;
 
 

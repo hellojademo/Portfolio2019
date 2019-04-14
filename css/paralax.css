@@ -6,6 +6,7 @@
 body, html {
   height: 100%;
   padding:0;
+  background-color:#8D5B4C;
 }
 
 
@@ -42,6 +43,10 @@ body, html {
     font-size: 15px;
   }
 
+  h3{
+    font-size:12px;
+  }
+
   .center{
     font-size: 60px;
   }
@@ -66,6 +71,8 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 88%);
+clip-path: polygon(0 0, 100% 0, 100% 100%, 0 88%);
 }
 
 .parallax2 {
@@ -80,6 +87,60 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-clip-path: polygon(0 19%, 100% 0, 100% 100%, 0 100%);
+clip-path: polygon(0 19%, 100% 0, 100% 100%, 0 100%);
+}
+
+.paralax3{
+ /* The image used */
+  background-image: url('../img/horse4.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+-webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+
+}
+
+.paralax4{
+ /* The image used */
+  background-image: url('../img/horse5.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 100%);
+clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 100%);
+
+}
+
+.paralax5{
+ /* The image used */
+  background-image: url('../img/horse8.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
+clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
+
 }
 
 .brown{
@@ -93,6 +154,22 @@ padding:10px;
   background-color:rgba(165, 151, 139, 0.4);
   
 
+
+}
+
+.half{
+  float:left;
+  margin-right: 18px;
+  display:inline-block;
+  width:50%;
+}
+
+.right{
+  width:100%;
+}
+
+#half{
+height:590px;
 
 }
 
@@ -117,7 +194,7 @@ h2{
 h3{
   color:rgba(90, 42, 38, 0.7);
   font-family: 'Roboto Slab';
-  text-align: center;
+  text-align: left;
   font-size:21px;
   text-decoration: overline dotted #c4bbaf;
 

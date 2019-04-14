@@ -22,12 +22,16 @@ $(document).ready(function() {
     // Add a scene to control it
     var scene = new ScrollMagic.Scene({
       triggerElement: "#block"+index,
+
+
     });
 
     // Add a tween to fade it to opacity 1
-    scene.setTween("#block"+index, 0.5, {
+    scene.setTween("#block"+index, 1.0, {
       opacity: "1",
+       
     });
+
 
 
     // Add the debugging indicators so we can see what's happening
@@ -36,5 +40,10 @@ $(document).ready(function() {
     // Add our scene to the controller so it actually does something
     scene.addTo(controller);
   });
+
+ 
+
+
+
 
 });

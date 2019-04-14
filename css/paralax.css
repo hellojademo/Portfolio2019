@@ -1,10 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700i|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400i');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 body, html {
   height: 100%;
+  padding:0;
 }
+
+
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+
+  p{
+    font-size: 15px;
+    
+  }
+
+  h1{
+    font-size: 20px;
+  }
+
+   
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+ p{
+    font-size: 13px;
+
+    
+  }
+
+  h1{
+    font-size: 15px;
+  }
+
+  .center{
+    font-size: 60px;
+  }
+
+.column {
+    width: 100%;
+  }
+
+}
+
 
 .parallax {
   /* The image used */
-  background-image: url('../img/fill4.jpg');
+  background-image: url('../img/horse1.gif');
 
   /* Full height */
   height: 100%; 
@@ -14,11 +65,12 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
 }
 
 .parallax2 {
   /* The image used */
-  background-image: url('../img/fill3.jpg');
+  background-image: url('../img/horse2.jpg');
 
   /* Full height */
   height: 100%; 
@@ -29,3 +81,61 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.brown{
+background-color:#8D5B4C;
+padding:10px;
+}
+
+.tit{
+  height:65px;
+  padding:15px;
+  background-color:rgba(165, 151, 139, 0.4);
+  
+
+
+}
+
+h1{
+
+  font-family: 'Playfair Display';
+  font-size: 40px;
+  color: white;
+
+}
+
+h2{
+
+  font-family: 'Playfair Display';
+  font-style:italic;
+  font-weight: 400;
+
+  font-size: 25px;
+  color:white;
+}
+
+h3{
+  color:rgba(90, 42, 38, 0.7);
+  font-family: 'Roboto Slab';
+  text-align: center;
+  font-size:21px;
+  text-decoration: overline dotted #c4bbaf;
+
+}
+
+h4{
+
+  font-family: 'Roboto';
+  font-size:12px;
+  color:white;
+}
+
+p{
+  color: white;
+  width:70%;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 16px;
+
+}
+

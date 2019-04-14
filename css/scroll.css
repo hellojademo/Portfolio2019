@@ -20,6 +20,8 @@ p{
   color:#498367;
   margin: 70px;
   font-family: 'Space Mono';
+  width:70%
+  text-align:justify;
 }
 
 @media only screen and (max-width: 700px) {
@@ -65,7 +67,7 @@ p{
 }
 h1 {
 font-size: 30px;
-font-family: 'Tillana';
+font-family: 'Raleway';
 color:#FFF;
 margin-left: 16px;
 /*text-align: center;*/
@@ -122,7 +124,8 @@ background-color: #EDE5A6;
 
 #block1{
 height:500px;
-background-color:blue;
+background-color:#B2D3A8;
+
 
 }
 

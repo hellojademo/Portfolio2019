@@ -1,5 +1,11 @@
 
 
+@import url('https://fonts.googleapis.com/css?family=Alike+Angular');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Space+Mono|Tillana');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 body {
 
   margin-bottom: 400px;
@@ -9,8 +15,11 @@ body {
 
 
 p{
-	font-size:35px;
+  display: inline-block;
+	font-size:20px;
   color:#498367;
+  margin: 70px;
+  font-family: 'Space Mono';
 }
 
 @media only screen and (max-width: 700px) {
@@ -20,7 +29,7 @@ p{
   }
 
   p{
-  	font-size: 20px;
+  	font-size: 15px;
     
   }
 
@@ -32,7 +41,7 @@ p{
     width: 100%;
   }
  p{
-  	font-size: 15px;
+  	font-size: 13px;
 
     
   }
@@ -44,7 +53,7 @@ p{
 .block {
   width: 100%;
   opacity: 0;
-  margin:auto;
+/*  margin:auto;*/
 /*  display:inline-block;*/
 }
 
@@ -55,15 +64,19 @@ p{
   animation-iteration-count: infinite;
 }
 h1 {
-font-size: 50px;
+font-size: 30px;
+font-family: 'Tillana';
+color:#FFF;
+margin-left: 16px;
 /*text-align: center;*/
 
 
 }
-.iphone {
-  width: 300px;
-}
 
+#arrow{
+
+animation-duration: 2s;  
+}
 #start{
 
 	background-image:url('../img/island.jpg');
@@ -78,11 +91,12 @@ font-size: 50px;
 .pop{
 
   float:right;
- background-color:#52B788;
+ background-color: rgb(82,183,136, 0.6);
  width:60%;
- height: 30%;
+ height: 10%;
  border-radius: 20px 0px 0px 20px;
  margin-top: 5%;
+ margin-left: 20px;
  margin-bottom: 2px;
  background-opacity: 40%;
 
@@ -94,7 +108,10 @@ font-size: 50px;
   top: 50%;
   width: 100%;
   text-align: center;
-  font-size: 18px;
+ 
+  font-size: 60px;
+font-family: 'Raleway';
+color:#FFF;
 }
 
 #block0{

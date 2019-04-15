@@ -383,6 +383,15 @@ body {
   border-radius: 20px;
 }
 
+.text3 {
+  background-color: rgb(76, 175, 80, 0.4);
+  color: white;
+  height:40%;
+  font-size: 16px;
+  padding: 4px 8px;
+  border-radius: 20px;
+}
+
 .text a{
   text-decoration: none;
  

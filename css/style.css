@@ -13,38 +13,46 @@ Some description of the CSS styling
 @import url('https://fonts.googleapis.com/css?family=Audiowide|Press+Start+2P');
 @import url('https://fonts.googleapis.com/css?family=Lora|Open+Sans');
 
+
+.side{
+
+  -ms-transform: rotate(-20deg); /* IE 9 */
+  -webkit-transform: rotate(-20deg); /* Safari 3-8 */
+  transform: rotate(-20deg);
+}
 u.topnav {
   background-color: #333;
   overflow: hidden;
 }
 
 a:link {
-  color: red;
+  color: #2D3A3a;
 }
 
 /* visited link */
 a:visited {
-  color: green;
+  color: #2D3A3a;
 }
 
 /* mouse over link */
 a:hover {
-  color: #000;
+  color: white;
 }
 
 /* selected link */
 a:active {
-  color: blue;
+  color: #2D3A3a;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: right;
   display: block;
-  color: #f2f2f2;
+  color: #177e89;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: 'Roboto Slab';
   font-size: 17px;
 }
 
@@ -56,7 +64,8 @@ a:active {
 
 /* Add an active class to highlight the current page */
 .active {
-  background-color: #4CAF50;
+  background-color: #6bbf59;
+  border-radius: 20px;
   color: white;
 }
 
@@ -70,6 +79,11 @@ a{
   padding: none;
   margin:none;
 
+}
+
+.half:hover{
+
+  opacity: 60%;
 }
 
 p{
@@ -98,6 +112,10 @@ h3{
   margin-right: auto;
 }
 
+h6{
+  font-family: 'Lora';
+  font-size:11px;
+}
 button{
 margin-top:150px;
 background-color: #f99;
@@ -129,7 +147,11 @@ color: white;
 margin-left:35%;
 
 font-family: 'Roboto Slab';
+color:#073b3a;
+}
 
+.top2{
+  font-size:30px;
 }
 
 /*--------DIV STUFFFFFFF------*/
@@ -138,7 +160,7 @@ font-family: 'Roboto Slab';
  margin-top: 15%;
  width: 100%;
 /*  background-color:red;*/
-  height: 500px;
+  height: 300px;
   padding-bottom: 20%;
 }
 
@@ -150,12 +172,17 @@ font-family: 'Roboto Slab';
    border-radius: 110px;
 }
 
+.works{
+  height:200px;
+}
+
 .row {
  
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
-  padding-left:20%;
+  padding-top: 10%;
+  padding-left:10%;
 /*  margin-left: 20%;*/
 
  -webkit-animation: background 25s infinite;
@@ -164,6 +191,30 @@ font-family: 'Roboto Slab';
 
 }
 
+.row2{
+
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  padding-left:20%;
+  background-color:#99f; 
+}
+
+.row3{
+display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  padding-left:20%;
+  background-color: #6bb; 
+}
+
+.row4{
+display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  padding-left:20%;
+  background-color: #9f9;
+}
 /* Create four equal columns that sits next to each other */
 .column {
   flex: 33%;
@@ -178,6 +229,18 @@ font-family: 'Roboto Slab';
   border-radius: 10px;
 }
 
+.column2 {
+  flex:50%;
+  max-width: 50%;
+  padding: 0 1px;
+}
+
+.column2 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width:80%;
+  border-radius: 10px;
+}
 
 d
 * {
